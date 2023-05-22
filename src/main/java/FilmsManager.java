@@ -1,6 +1,7 @@
 public class FilmsManager {
     private String[] films = new String[0];
-    private int limit;
+    private  int limit;
+
 
     public FilmsManager() {
         this.limit = 5;
@@ -24,6 +25,7 @@ public class FilmsManager {
         return films;
 
     }
+
 
     public String[] findLast() {
         int resultLength;
